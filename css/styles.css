@@ -1,0 +1,55 @@
+/*========GLOBAL STYLES*/
+
+/*============GLOBAL STYLES BY BMARTIN 1-26-2016*/
+
+body {
+    margin:0px;
+}
+
+a {
+    
+}
+
+h1 {
+    
+}
+
+p {
+    
+}
+
+
+
+header {
+    background-color :#3BFBFF;
+    height:200px;
+}
+main {
+    height: 600px;
+    width:90%;
+    margin:30px auto;
+}
+footer {
+    background-color :#3BFBFF;
+    height:300px;
+    text-align:center;
+    padding:40px;
+}
+/*==========BUTTON STYLES*/
+
+.button {
+    background-color :#29E5FF;
+    padding:15px 23px;
+    border-radius:6px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+/**/
+.imageCenter {
+    display:block;
+    margin:0px auto;
+}
