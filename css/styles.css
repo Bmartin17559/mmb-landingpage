@@ -1,9 +1,75 @@
+
 /*========GLOBAL STYLES*/
-
 /*============GLOBAL STYLES BY BMARTIN 1-26-2016*/
-
+@import url(https://fonts.googleapis.com/css?family=Almendra+Display|Black+Ops+One|Henny+Penny|Montserrat+Subrayada|Nosifer|Old+Standard+TT);
 body {
-    margin:0px;
+    margin:0;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+header {
+    height:80px;
+    text-align:center;
+}
+main {
+    height: 500px;
+    width:90%;
+    margin:50px auto;
+}
+footer {
+    height:200px;
+    text-align:center;
+    padding:40px;
+}
+/*==========BUTTON STYLES*/
+
+.button {
+    padding:15px 23px;
+    border-radius:6px;
+    color:#FFFFFF;
+    background-color:#000000;
+    text-decoration:none;
+    font-family: 'Henny+Penny', cursive;
+}
+
+.button:hover {
+    background-color: #fe0002;
+}
+/*OTHER STYLES*/
+.imageCenter {
+    display:block;
+    margin:0px auto;
 }
 
 a {
@@ -11,6 +77,25 @@ a {
 }
 
 h1 {
+    
+    text-align:center;
+    /*font-family: 'Montserrat Subrayada', sans-serif;*/
+}
+
+/*h1 { font-family: 'Metrophobic', Arial, serif; font-weight: 400; }*/
+
+h1, h2, h3, h4, h5, h6, p {
+    color:#FFFFFF;
+    text-align:center;
+}
+
+h2 {
+    font-family: 'Nosifer', cursive;
+}
+
+h3 {
+    margin:auto;
+    margin:100px;
     
 }
 
@@ -20,36 +105,16 @@ p {
 
 
 
-header {
-    background-color :#3BFBFF;
-    height:200px;
-}
-main {
-    height: 600px;
-    width:90%;
-    margin:30px auto;
-}
-footer {
-    background-color :#3BFBFF;
-    height:300px;
+.logofont {
+    font-family: 'Nosifer', cursive;
     text-align:center;
-    padding:40px;
-}
-/*==========BUTTON STYLES*/
-
-.button {
-    background-color :#29E5FF;
-    padding:15px 23px;
-    border-radius:6px;
+    font-size:3em;
     color:#FFFFFF;
-    text-decoration:none;
 }
 
-.button:hover {
-    background-color: #000000;
+.buttonCenter {
+    text-align:center;
 }
-/**/
-.imageCenter {
-    display:block;
-    margin:0px auto;
-}
+
+
+/*Hamurger background */
